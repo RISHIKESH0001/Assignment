@@ -1,0 +1,86 @@
+.stock-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-left: 4px solid #ddd;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.stock-card.positive {
+  border-left-color: #10b981;
+}
+
+.stock-card.negative {
+  border-left-color: #ef4444;
+}
+
+.stock-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.stock-header {
+  display: flex;
+  justify-content: between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.stock-symbol {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  flex: 1;
+}
+
+.unsubscribe-button {
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.unsubscribe-button:hover {
+  background: #dc2626;
+}
+
+.stock-price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.stock-change {
+  margin-bottom: 0.5rem;
+}
+
+.change-amount {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.change-amount.positive {
+  color: #10b981;
+}
+
+.change-amount.negative {
+  color: #ef4444;
+}
+
+.stock-timestamp {
+  font-size: 0.75rem;
+  color: #666;
+}

@@ -1,0 +1,73 @@
+{
+  "companies": [
+    { "id": "1", "name": "Tech Solutions Inc." },
+    { "id": "2", "name": "Global Enterprises Ltd." },
+    { "id": "3", "name": "Innovation Corp" }
+  ],
+  "accounts": {
+    "1": [
+      { "id": "acc1_1", "name": "Business Account", "number": "ACC001" },
+      { "id": "acc1_2", "name": "Operating Account", "number": "ACC002" }
+    ],
+    "2": [
+      { "id": "acc2_1", "name": "Main Account", "number": "ACC101" },
+      { "id": "acc2_2", "name": "Reserve Account", "number": "ACC102" }
+    ],
+    "3": [
+      { "id": "acc3_1", "name": "Primary Account", "number": "ACC201" },
+      { "id": "acc3_2", "name": "Secondary Account", "number": "ACC202" }
+    ]
+  },
+  "accountData": {
+    "acc1_1": {
+      "availableBalance": "¥ 88,888.88",
+      "loads": [
+        { "date": "07/08/2024 01:04 PM", "credit": "¥ 21,337", "acBalance": "¥ 21,337", "utr": "1000000", "acDetails": "ACC/CF/RRL/V407GHU" },
+        { "date": "04/08/2024 12:38 PM", "credit": "¥ 21,337", "acBalance": "¥ 21,337", "utr": "CMS4136431811", "acDetails": "010MSLNETFPL" },
+        { "date": "28/03/2024 05:09 PM", "credit": "¥ 21,337", "acBalance": "¥ 21,337", "utr": "CMS4019645011", "acDetails": "ACTB61VM9886725C" },
+        { "date": "28/03/2024 06:09 PM", "credit": "¥ 5,015.69", "acBalance": "¥ 5,015.69", "utr": "CMS3956666735", "acDetails": "ACC/CF/RRL/V407GHU" },
+        { "date": "19/03/2024 11:33 PM", "credit": "¥ 5,015.69", "acBalance": "¥ 5,015.69", "utr": "CMS3948064084", "acDetails": "ACTB61VM9886725C" },
+        { "date": "19/03/2024 11:33 PM", "credit": "¥ 15,000", "acBalance": "¥ 15,000", "utr": "CMS3936564816", "acDetails": "ACC/CF/RRL/V407GHU" }
+      ]
+    },
+    "acc1_2": {
+      "availableBalance": "¥ 45,678.90",
+      "loads": [
+        { "date": "05/08/2024 10:15 AM", "credit": "¥ 15,000", "acBalance": "¥ 15,000", "utr": "1000001", "acDetails": "ACC/CF/RRL/V407GHU" },
+        { "date": "03/08/2024 02:20 PM", "credit": "¥ 12,500", "acBalance": "¥ 12,500", "utr": "CMS4136431812", "acDetails": "020MSLNETFPL" }
+      ]
+    },
+    "acc2_1": {
+      "availableBalance": "¥ 123,456.78",
+      "loads": [
+        { "date": "06/08/2024 09:30 AM", "credit": "¥ 25,000", "acBalance": "¥ 25,000", "utr": "2000000", "acDetails": "MAIN/ACC/001" },
+        { "date": "02/08/2024 11:45 AM", "credit": "¥ 18,750", "acBalance": "¥ 18,750", "utr": "CMS4136431813", "acDetails": "GLOBAL001" }
+      ]
+    },
+    "acc2_2": {
+      "availableBalance": "¥ 67,890.12",
+      "loads": [
+        { "date": "08/08/2024 03:15 PM", "credit": "¥ 8,000", "acBalance": "¥ 8,000", "utr": "2000001", "acDetails": "RESERVE/ACC/001" },
+        { "date": "01/08/2024 04:30 PM", "credit": "¥ 12,345", "acBalance": "¥ 12,345", "utr": "CMS4136431814", "acDetails": "GLOBAL002" }
+      ]
+    },
+    "acc3_1": {
+      "availableBalance": "¥ 234,567.89",
+      "loads": [
+        { "date": "09/08/2024 08:20 AM", "credit": "¥ 35,000", "acBalance": "¥ 35,000", "utr": "3000000", "acDetails": "PRIMARY/INNOV" },
+        { "date": "31/07/2024 01:10 PM", "credit": "¥ 22,500", "acBalance": "¥ 22,500", "utr": "CMS4136431815", "acDetails": "INNOV001" }
+      ]
+    },
+    "acc3_2": {
+      "availableBalance": "¥ 89,012.34",
+      "loads": [
+        { "date": "10/08/2024 02:45 PM", "credit": "¥ 7,500", "acBalance": "¥ 7,500", "utr": "3000001", "acDetails": "SECONDARY/INNOV" },
+        { "date": "30/07/2024 10:05 AM", "credit": "¥ 9,876", "acBalance": "¥ 9,876", "utr": "CMS4136431816", "acDetails": "INNOV002" }
+      ]
+    }
+  },
+  "sidebarItems": [
+    { "id": "statements", "label": "Statements", "icon": "📊" },
+    { "id": "transactions", "label": "Transactions", "icon": "💳" }
+  ]
+}
